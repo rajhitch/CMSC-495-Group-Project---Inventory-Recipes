@@ -8,7 +8,7 @@
 
 <BorderPane fx:id="borderPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="api.RecipeFinderController">
    <bottom>
-      <HBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="346.0" BorderPane.alignment="CENTER">
+      <HBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="401.0" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="findRecipesButton" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="30.0" mnemonicParsing="false" onAction="#findRecipes" snapToPixel="false" text="Find Recipes">
                <HBox.margin>
@@ -24,6 +24,7 @@
                   <Insets bottom="20.0" right="10.0" />
                </HBox.margin>
             </Button>
+            <Button fx:id="clearMenuButton" mnemonicParsing="false" onAction="#clearMenu" prefHeight="25.0" prefWidth="84.0" text="Clear Menu" />
          </children>
          <BorderPane.margin>
             <Insets bottom="10.0" top="10.0" />
